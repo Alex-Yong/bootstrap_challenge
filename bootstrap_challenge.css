@@ -1,0 +1,119 @@
+img {
+  height: 150px;
+  display: flex;
+
+}
+
+
+h2{
+  font-weight: bold;
+}
+
+body{
+  font-family:fantasy;
+}
+
+.carousel-inner > .item > img{
+  height: 350px;
+  display: flex;
+justify-content: center;
+margin: 0 auto;
+}
+
+.spinner{
+  display: flex;
+  /*align-items: center;*/
+  justify-content: center;
+  padding: 20px;
+}
+
+#myCarousel{
+  width: 50%;
+
+}
+
+.col-sm-3{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  overflow: auto;
+  word-wrap: break-word;
+  padding: 20px;
+}
+
+.jumbo{
+  text-align: center;
+}
+
+.jumbotron{
+  background: url("https://media.giphy.com/media/yYSSBtDgbbRzq/giphy.gif") no-repeat;
+  background-size: contain;
+  height: 500px;
+  background-position: center;
+  text-shadow:2px 2px 2px #ff0000;
+  color: white;
+  background-color: #57839D;
+  margin-top: 0;
+}
+
+.col-sm-4{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-left: 60px;
+  padding-right: 60px;
+  }
+
+
+.navbar{
+  background-color: teal;
+  margin-bottom: 0;
+}
+ /*p{
+   word-wrap: break-word;
+
+ }*/
+
+ footer {
+   text-align: center;
+   margin:50px;
+   font-size: 40px;
+ }
+
+ footer a {
+      color:red;
+ }
+
+footer a:hover {
+   text-decoration: none;
+   color: white;
+ }
+
+ .dropdown-menu .sub-menu {
+     left: 100%;
+     position: absolute;
+     top: 0;
+     visibility: hidden;
+     margin-top: -1px;
+ }
+
+ .dropdown-menu li:hover .sub-menu {
+     visibility: visible;
+ }
+
+ .dropdown:hover .dropdown-menu {
+     display: block;
+ }
+
+footer:visited{
+  text-decoration: none;
+}
+
+p{
+  margin-top: 15px;
+}
+
+.progress{
+  margin-top: 20px;
+}
